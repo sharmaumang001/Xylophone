@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/c_key"
+        android:layout_width="410dp"
+        android:layout_height="95dp"
+        android:background="#e74c3c"
+        android:onClick="playc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <Button
+        android:id="@+id/d_key"
+        android:layout_width="390dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="8dp"
+        android:background="#e67e22"
+        android:onClick="playd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c_key"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/e_key"
+        android:layout_width="370dp"
+        android:layout_height="95dp"
+        android:background="#f1c40f"
+        android:onClick="playe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d_key"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/f_key"
+        android:layout_width="355dp"
+        android:layout_height="95dp"
+        android:background="#1abc9c"
+        android:onClick="playf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/e_key"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/g_key"
+        android:layout_width="340dp"
+        android:layout_height="95dp"
+        android:background="#2ecc72"
+        android:onClick="playg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/f_key"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/a_key"
+        android:layout_width="325dp"
+        android:layout_height="95dp"
+        android:background="#3498db"
+        android:onClick="playa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/g_key"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/b_key"
+        android:layout_width="310dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="8dp"
+        android:background="#9b59b6"
+
+        android:onClick="playb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a_key"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
